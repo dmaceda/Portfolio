@@ -6,6 +6,7 @@ import CALCULATOR from '../../assets/calculador.png'
 import TODO from '../../assets/todos.png'
 import MOVIES from '../../assets/movie.png'
 import PORTFOLIO from '../../assets/portfolio.png'
+import CRIPTO from '../../assets/cripto_mokup.png'
 import {DiCss3, DiJavascript1, DiReact } from 'react-icons/di'
 import {SiRedux} from 'react-icons/si'
 
@@ -69,6 +70,20 @@ const Portfolio = () => {
             <div className='portfolio__item-cta'>
             <a href='https://github.com/dmaceda/Calculator' className='btn' target='_blank'>View Code</a>
             <a href='https://dmaceda.github.io/Calculator/' className='btn btn-primary' target='_blank'>View Demo</a>
+            </div>
+        </SwiperSlide>
+
+        <SwiperSlide className='portfolio__items'>
+          <div className='portfolio__item-image'>
+          <img src={CRIPTO } alt='cripto' width='100%'/>
+          </div>
+            <h3>Criptomonedas</h3>
+            <DiCss3 className='mokup'/>
+            <DiJavascript1 className='mokup'/>
+            <DiReact className='mokup'/>
+            <div className='portfolio__item-cta'>
+            <a href='https://github.com/dmaceda/Criptomonedas' className='btn' target='_blank'>View Code</a>
+            <a href='https://dmaceda.github.io/Criptomonedas/' className='btn btn-primary' target='_blank'>View Demo</a>
             </div>
         </SwiperSlide>
 
