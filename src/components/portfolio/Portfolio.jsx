@@ -1,7 +1,7 @@
 import React from 'react'
 import './portfolio.css'
 import CLOCK from '../../assets/clock_.png'
-import CLIMA from '../../assets/weather.png'
+import CLIMA from '../../assets/climamokup.png'
 import CALCULATOR from '../../assets/calculador.png'
 import TODO from '../../assets/todos.png'
 import MOVIES from '../../assets/movie.png'
@@ -28,19 +28,6 @@ import 'swiper/css/autoplay';
 
 //crear array de proyectos y mapearlo
 
-const proyects = [
-  {name:'Calculator', 
-   github:'https://github.com/dmaceda/Calculator',
-   demo:'https://dmaceda.github.io/Calculator/',
-   imagen:'https://github.com/dmaceda/Calculator/blob/master/src/imagenes/calculator.png'
-  },
-  {name:'Weather App', 
-   github:'https://github.com/dmaceda/Clima-App',
-   demo:'https://dmaceda.github.io/Clima-App/',
-   imagen:'https://github.com/dmaceda/Clima-App/blob/master/clima.jpg'
-  },
-
-]
 
 
 const Portfolio = () => {
@@ -80,8 +67,8 @@ const Portfolio = () => {
             <DiJavascript1 className='mokup'/>
             <DiReact className='mokup'/>
             <div className='portfolio__item-cta'>
-            <a href='https://github.com/dmaceda/Clock' className='btn' target='_blank'>View Code</a>
-            <a href='https://dmaceda.github.io/Clock/' className='btn btn-primary' target='_blank'>View Demo</a>
+            <a href='https://github.com/dmaceda/Calculator' className='btn' target='_blank'>View Code</a>
+            <a href='https://dmaceda.github.io/Calculator/' className='btn btn-primary' target='_blank'>View Demo</a>
             </div>
         </SwiperSlide>
 
@@ -95,8 +82,8 @@ const Portfolio = () => {
               <DiJavascript1 className='mokup'/>
               <DiReact className='mokup'/>
             <div className='portfolio__item-cta'>
-            <a href='https://github.com/dmaceda/Clima-App' className='btn' target='_blank'>View Code</a>
-            <a href='https://dmaceda.github.io/Clima-App/' className='btn btn-primary' target='_blank'>View Demo</a>
+            <a href='https://github.com/dmaceda/Lista-de-tareas' className='btn' target='_blank'>View Code</a>
+            <a href='https://dmaceda.github.io/Lista-de-tareas/' className='btn btn-primary' target='_blank'>View Demo</a>
             </div>
         </SwiperSlide>
 
@@ -123,8 +110,8 @@ const Portfolio = () => {
             <DiReact className='mokup'/>
             <SiRedux className='mokup'/>
             <div className='portfolio__item-cta'>
-            <a href='https://github.com/dmaceda/Clock' className='btn' target='_blank'>View Code</a>
-            <a href='https://dmaceda.github.io/Clock/' className='btn btn-primary' target='_blank'>View Demo</a>
+            <a href='' className='btn' target='_blank'>View Code</a>
+            <a href='' className='btn btn-primary' target='_blank'>View Demo</a>
             </div>
         </SwiperSlide>
 
@@ -137,8 +124,8 @@ const Portfolio = () => {
               <DiJavascript1 className='mokup'/>
               <DiReact className='mokup'/>
             <div className='portfolio__item-cta'>
-            <a href='https://github.com/dmaceda/Clima-App' className='btn' target='_blank'>View Code</a>
-            <a href='https://dmaceda.github.io/Clima-App/' className='btn btn-primary' target='_blank'>View Demo</a>
+            <a href='https://github.com/dmaceda/Portfolio' className='btn' target='_blank'>View Code</a>
+            <a href='https://dmaceda.github.io/Portfolio/' className='btn btn-primary' target='_blank'>View Demo</a>
             </div>
         </SwiperSlide>
 
