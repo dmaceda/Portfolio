@@ -1,7 +1,7 @@
 # Responsive Portfolio
 ![Preview de la App ](https://github.com/dmaceda/Portfolio/blob/master/portfolio.png)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Link: https://dmaceda.github.io/Portfolio
 
 ## Available Scripts
 
