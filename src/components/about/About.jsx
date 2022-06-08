@@ -50,7 +50,7 @@ const About = () => {
         </article>
       </div>
 
-      <p>
+      <p className='texto'>
         I'm a passionte for art, design and technology.
         I have a background in the development of web applications, but I'm also familiar with the development of mobile applications.
         I'm currently working on freelance projects and I'm always looking for new opportunities.

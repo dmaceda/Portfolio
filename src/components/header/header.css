@@ -78,4 +78,10 @@ header {
     .scroll_down{
         display: none;
     }
+    .me {
+        
+        width: 15rem;
+       
+    }
+    
 }

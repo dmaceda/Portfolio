@@ -75,4 +75,7 @@ input, textarea {
     .contact__container{
         width: 50%;
     }
+    input {
+       display:none
+    }
  }
