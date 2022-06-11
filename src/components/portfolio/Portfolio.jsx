@@ -125,8 +125,8 @@ const Portfolio = () => {
             <DiReact className='mokup'/>
             <SiRedux className='mokup'/>
             <div className='portfolio__item-cta'>
-            <a href='' className='btn' target='_blank'>View Code</a>
-            <a href='' className='btn btn-primary' target='_blank'>View Demo</a>
+            <a href='https://github.com/dmaceda/Movies' className='btn' target='_blank'>View Code</a>
+            <a href='https://dmaceda.github.io/Movies/' className='btn btn-primary' target='_blank'>View Demo</a>
             </div>
         </SwiperSlide>
 
