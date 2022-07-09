@@ -1,5 +1,7 @@
 .experience__container{
-    display: flex;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
     
    
 }
@@ -9,9 +11,6 @@
     padding: 2.4rem 5rem;
     border-radius: 2rem;
     border: 1px solid transparent;
-    transition: var(--transition);
-    width: 50%;
-    margin: 0 auto;
 }
 
 .experience__container > div:hover {

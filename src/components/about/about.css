@@ -63,6 +63,10 @@ margin-bottom: 1rem;
     color: var(--color-light)
 }
 
+#about{
+    height: 70vh;
+}
+
 /*********** MEDIA QUERIES (MEDIUM DEVICES ************/
 @media screen and (max-width: 1024px) {
    .about__container {
@@ -100,4 +104,7 @@ margin-bottom: 1rem;
    .texto {
        font-size: small;
    }
+   #about{
+    height: 120vh;
+}
 }

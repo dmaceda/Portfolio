@@ -36,16 +36,9 @@ const Portfolio = () => {
     <section id='portfolio'>
       <h5>My Recent Proyect</h5>
       <h2>Portfolio</h2>
-      <Swiper className="portfolio__container"
-      modules={[Navigation, Pagination, Autoplay]}
-      spaceBetween={100}
-      slidesPerView={1}
-      autoplay={true}
-      pagination={{ clickable: true }}
-      >
+      <div className='container portfolio__container'>
 
-
-        <SwiperSlide className='portfolio__items'>
+        <div className='portfolio__items'>
           <div className='portfolio__item-image'>
           <img src={CLIMA} alt='clima' width='100%'/>
           </div>
@@ -57,9 +50,9 @@ const Portfolio = () => {
             <a href='https://github.com/dmaceda/Clima-App' className='btn' target='_blank'>View Code</a>
             <a href='https://dmaceda.github.io/Clima-App/' className='btn btn-primary' target='_blank'>View Demo</a>
             </div>
-        </SwiperSlide>
+        </div>
 
-        <SwiperSlide className='portfolio__items'>
+        <div className='portfolio__items'>
           <div className='portfolio__item-image'>
           <img src={CALCULATOR} alt='calculator' width='100%'/>
           </div>
@@ -71,9 +64,9 @@ const Portfolio = () => {
             <a href='https://github.com/dmaceda/Calculator' className='btn' target='_blank'>View Code</a>
             <a href='https://dmaceda.github.io/Calculator/' className='btn btn-primary' target='_blank'>View Demo</a>
             </div>
-        </SwiperSlide>
+        </div>
 
-        <SwiperSlide className='portfolio__items'>
+        <div className='portfolio__items'>
           <div className='portfolio__item-image'>
           <img src={CRIPTO } alt='cripto' width='100%'/>
           </div>
@@ -85,24 +78,10 @@ const Portfolio = () => {
             <a href='https://github.com/dmaceda/Criptomonedas' className='btn' target='_blank'>View Code</a>
             <a href='https://dmaceda.github.io/Criptomonedas/' className='btn btn-primary' target='_blank'>View Demo</a>
             </div>
-        </SwiperSlide>
+        </div>
 
 
-        <SwiperSlide className='portfolio__items'>
-          <div className='portfolio__item-image'>
-          <img src={TODO} alt='todo' width='100%'/>
-          </div>
-            <h3>Todo App</h3>
-              <DiCss3 className='mokup'/>
-              <DiJavascript1 className='mokup'/>
-              <DiReact className='mokup'/>
-            <div className='portfolio__item-cta'>
-            <a href='https://github.com/dmaceda/Lista-de-tareas' className='btn' target='_blank'>View Code</a>
-            <a href='https://dmaceda.github.io/Lista-de-tareas/' className='btn btn-primary' target='_blank'>View Demo</a>
-            </div>
-        </SwiperSlide>
-
-        <SwiperSlide className='portfolio__items'>
+        <div className='portfolio__items'>
           <div className='portfolio__item-image'>
           <img src={CLOCK} alt='clock' width='100%'/>
           </div>
@@ -113,9 +92,9 @@ const Portfolio = () => {
             <a href='https://github.com/dmaceda/Clock' className='btn' target='_blank'>View Code</a>
             <a href='https://dmaceda.github.io/Clock/' className='btn btn-primary' target='_blank'>View Demo</a>
             </div>
-        </SwiperSlide>
+        </div>
 
-        <SwiperSlide className='portfolio__items'>
+        <div className='portfolio__items'>
           <div className='portfolio__item-image'>
           <img src={MOVIES} alt='movies' width='100%'/>
           </div>
@@ -128,9 +107,9 @@ const Portfolio = () => {
             <a href='https://github.com/dmaceda/Movies' className='btn' target='_blank'>View Code</a>
             <a href='https://dmaceda.github.io/Movies/' className='btn btn-primary' target='_blank'>View Demo</a>
             </div>
-        </SwiperSlide>
+        </div>
 
-        <SwiperSlide className='portfolio__items'>
+        <div className='portfolio__items'>
           <div className='portfolio__item-image'>
           <img src={PORTFOLIO} alt='portfolio' width='100%'/>
           </div>
@@ -142,9 +121,11 @@ const Portfolio = () => {
             <a href='https://github.com/dmaceda/Portfolio' className='btn' target='_blank'>View Code</a>
             <a href='https://dmaceda.github.io/Portfolio/' className='btn btn-primary' target='_blank'>View Demo</a>
             </div>
-        </SwiperSlide>
+        </div>
+      </div>
 
-      </Swiper>
+
+  
     </section>
   )
 }

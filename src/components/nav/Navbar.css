@@ -1,0 +1,45 @@
+#navbar {
+    
+        width: 100%;
+        background-color: rgba(0, 0, 0, 0.3);
+        padding: 1rem 2rem;
+        display: flex;
+        justify-content: flex-end;
+        position: fixed;
+    
+}   
+#navbar a {
+    background: transparent;
+    padding: 0.9rem;
+    border-radius: 5%;
+    display: flex;
+    color:var(--color-light);
+    font-size: 1.1rem;
+}
+
+#navbar a:hover{
+    background:  rgba(0, 0, 0, 0.3);
+    color: var(--white);
+}
+
+#navbar a.active {
+    color: var(--white);
+    text-decoration: underline;
+    text-underline-position: under;
+    text-decoration-color: var(--color-primary);
+}
+
+
+/*********** MEDIA QUERIES (MEDIUM DEVICES ************/
+@media screen and (max-width: 1024px) {
+   #navbar {
+    display:none;
+   }
+  }
+  
+  /*********** MEDIA QUERIES (SMALL DEVICES ************/
+  @media screen and (max-width: 600px) {
+    #navbar {
+        display:none;
+       }
+  }

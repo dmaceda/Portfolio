@@ -1,6 +1,7 @@
 import React from 'react'
 import Header from './components/header/Header'
 import Nav from './components/nav/Nav'
+import Navbar from './components/nav/Navbar'
 import About from './components/about/About'
 import Experience from './components/experience/Experience'
 import Services from './components/services/Services'
@@ -12,11 +13,13 @@ import Footer from './components/footer/Footer'
 const App = () => {
   return (
     <>
-    <Header />
+    <Navbar/>
     <Nav />
+    <Header />
     <About />
     <Experience />
     <Portfolio />
+    <Testimonial />
     <Contact />
     <Footer />
     </>
