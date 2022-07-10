@@ -1,6 +1,6 @@
 import React from 'react'
 import './footer.css'
-import LOGO from '../../assets/logo.png'
+import LOGO from '../../assets/logo_tipo.png'
 import {AiFillFacebook, AiOutlineInstagram, AiOutlineTwitter} from 'react-icons/ai'
 const Footer = () => {
   return (

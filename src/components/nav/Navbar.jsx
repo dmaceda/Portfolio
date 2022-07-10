@@ -1,11 +1,13 @@
 import React from 'react'
 import './Navbar.css'
+import LOGO from '../../assets/logo_ntm.png'
 import { useState } from 'react'
 
 const Nav = () => {
 const [activeNav,setActiveNav] = useState('#')
   return (
     <nav id='navbar'>
+      <img className='logo_n' src={LOGO} alt='logo' width='40px'/>
       <a href='#' onClick={()=> setActiveNav('#')} className={activeNav ==='#' ? 'active' : ''}>Home</a>
       <a href='#about' onClick={()=> setActiveNav('#about')} className={activeNav ==='#about' ? 'active' : ''}>About</a>
       <a href='#experiences' onClick={()=> setActiveNav('#experiences')} className={activeNav ==='#experiences' ? 'active' : ''}>Experience</a>

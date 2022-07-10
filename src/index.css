@@ -37,6 +37,7 @@ html {
 body {
     font-family: 'Poppins', sans-serif;
     background: var(--color-bg);
+    background: url("../src/assets/px.png") repeat-y;
     color: var(--color-white);
     line-height: 1.7;
     

@@ -28,7 +28,11 @@
     text-underline-position: under;
     text-decoration-color: var(--color-primary);
 }
-
+.logo_n {
+    position: absolute;
+    left: 2rem;
+    top: 1.5rem;
+}
 
 /*********** MEDIA QUERIES (MEDIUM DEVICES ************/
 @media screen and (max-width: 1024px) {
