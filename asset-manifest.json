@@ -1,11 +1,12 @@
 {
   "files": {
-    "main.css": "/Portfolio/static/css/main.4f44916c.css",
-    "main.js": "/Portfolio/static/js/main.e3884d9a.js",
+    "main.css": "/Portfolio/static/css/main.15cecffb.css",
+    "main.js": "/Portfolio/static/js/main.5a5611ec.js",
     "static/media/cripto_mokup.png": "/Portfolio/static/media/cripto_mokup.3344036a3378c7505e77.png",
     "static/media/climamokup.png": "/Portfolio/static/media/climamokup.4cd63cd872ebbd3c5eb9.png",
     "static/media/clock_.png": "/Portfolio/static/media/clock_.9067cff06c899f65fd3b.png",
     "static/media/portfolio.png": "/Portfolio/static/media/portfolio.48647435883adfdd9bbb.png",
+    "static/media/px.png": "/Portfolio/static/media/px.44134c5c436f90d40179.png",
     "static/media/calculador.png": "/Portfolio/static/media/calculador.700ce74e0b85993c965b.png",
     "static/media/movie.png": "/Portfolio/static/media/movie.aa45eb8979f577eee7dc.png",
     "static/media/todos.png": "/Portfolio/static/media/todos.aaf7972ffbd5225adba7.png",
@@ -15,13 +16,14 @@
     "static/media/nico.png": "/Portfolio/static/media/nico.ff64f9c0e834395f43b2.png",
     "static/media/CV.pdf": "/Portfolio/static/media/CV.5ae0348ce21eda016289.pdf",
     "static/media/me2.png": "/Portfolio/static/media/me2.a7d781a6fd05d960c4b5.png",
-    "static/media/logo.png": "/Portfolio/static/media/logo.6d5905baf5d627a889dd.png",
+    "static/media/logo_tipo.png": "/Portfolio/static/media/logo_tipo.2f1e4ef5a63780c5793b.png",
+    "static/media/logo_ntm.png": "/Portfolio/static/media/logo_ntm.e285fd63036dbf781960.png",
     "index.html": "/Portfolio/index.html",
-    "main.4f44916c.css.map": "/Portfolio/static/css/main.4f44916c.css.map",
-    "main.e3884d9a.js.map": "/Portfolio/static/js/main.e3884d9a.js.map"
+    "main.15cecffb.css.map": "/Portfolio/static/css/main.15cecffb.css.map",
+    "main.5a5611ec.js.map": "/Portfolio/static/js/main.5a5611ec.js.map"
   },
   "entrypoints": [
-    "static/css/main.4f44916c.css",
-    "static/js/main.e3884d9a.js"
+    "static/css/main.15cecffb.css",
+    "static/js/main.5a5611ec.js"
   ]
 }
