@@ -55,10 +55,10 @@
     @media screen and (max-width: 600px) {
         .testimonial__container {
             width: 90%;
-            padding: 2rem;
+            padding: 1rem;
            }
         #testimonial{
-            height: 100vh;
+            height: 150vh;
         }
         
     }
