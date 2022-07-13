@@ -4,6 +4,7 @@ import BR from'../../assets/bruno.png'
 import AG from'../../assets/agus.png'
 import VI from'../../assets/vicky.png'
 import NI from'../../assets/nico.png'
+import ME from '../../assets/meli.png'
 
 // import Swiper core and required modules
 import { Navigation, Pagination, Autoplay } from 'swiper';
@@ -80,6 +81,16 @@ const Testimonial = () => {
             <small className='client__review'>Tuve el agrado de trabajar en proyectos junto con Diego, fue una experiencia muy agradable y
              enriquecedora. Es una persona eficiente, capaz y motivadora para el trabajo en equipo y el crecimiento individual de cada 
              integrante del mismo. Tiene muchos conocimientos en las tecnologías que se utilizan en la actualidad, es emprendedor, proactivo y detallista.</small>
+        </SwiperSlide>
+
+        <SwiperSlide className='testimonial'>
+          <div className='client__avatar'>
+          <img src={ME} alt='testimonial' width='100%'/>
+          </div>
+            <h5 className='client__name'>Melina Lourdes Reynoso</h5>
+            <small className='client__review'>Trabajar junto a Diego ha sido una experiencia enriquecedora. Es un gran profesional y gran compañero.
+             Explota su creatividad en el Front, es resolutivo y practico a la hora de enfrentarse a desafíos. Comparte sus conocimientos con el resto 
+             y siempre esta dispuesto a ayudar!</small>
         </SwiperSlide>
       </Swiper>
     </section>
