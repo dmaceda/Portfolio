@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Portfolio/static/css/main.5b840017.css",
-    "main.js": "/Portfolio/static/js/main.f820f307.js",
+    "main.css": "/Portfolio/static/css/main.67a09bcf.css",
+    "main.js": "/Portfolio/static/js/main.c656180b.js",
     "static/media/cripto_mokup.png": "/Portfolio/static/media/cripto_mokup.3344036a3378c7505e77.png",
     "static/media/climamokup.png": "/Portfolio/static/media/climamokup.4cd63cd872ebbd3c5eb9.png",
     "static/media/clock_.png": "/Portfolio/static/media/clock_.9067cff06c899f65fd3b.png",
@@ -9,21 +9,21 @@
     "static/media/calculador.png": "/Portfolio/static/media/calculador.700ce74e0b85993c965b.png",
     "static/media/movie.png": "/Portfolio/static/media/movie.aa45eb8979f577eee7dc.png",
     "static/media/todos.png": "/Portfolio/static/media/todos.aaf7972ffbd5225adba7.png",
+    "static/media/meli.png": "/Portfolio/static/media/meli.d2a5ea2dfe040b6adf03.png",
     "static/media/bruno.png": "/Portfolio/static/media/bruno.1fcbab144b7d0d79c1ca.png",
     "static/media/agus.png": "/Portfolio/static/media/agus.cc4b53dff3984b611f4d.png",
     "static/media/vicky.png": "/Portfolio/static/media/vicky.1557523299d537cbd441.png",
     "static/media/nico.png": "/Portfolio/static/media/nico.ff64f9c0e834395f43b2.png",
     "static/media/CV.pdf": "/Portfolio/static/media/CV.5ae0348ce21eda016289.pdf",
-    "static/media/px_b.png": "/Portfolio/static/media/px_b.489d715aff9d7f48c07b.png",
     "static/media/me2.png": "/Portfolio/static/media/me2.a7d781a6fd05d960c4b5.png",
     "static/media/logo_tipo.png": "/Portfolio/static/media/logo_tipo.2f1e4ef5a63780c5793b.png",
     "static/media/logo_ntm.png": "/Portfolio/static/media/logo_ntm.e285fd63036dbf781960.png",
     "index.html": "/Portfolio/index.html",
-    "main.5b840017.css.map": "/Portfolio/static/css/main.5b840017.css.map",
-    "main.f820f307.js.map": "/Portfolio/static/js/main.f820f307.js.map"
+    "main.67a09bcf.css.map": "/Portfolio/static/css/main.67a09bcf.css.map",
+    "main.c656180b.js.map": "/Portfolio/static/js/main.c656180b.js.map"
   },
   "entrypoints": [
-    "static/css/main.5b840017.css",
-    "static/js/main.f820f307.js"
+    "static/css/main.67a09bcf.css",
+    "static/js/main.c656180b.js"
   ]
 }
