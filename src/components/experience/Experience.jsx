@@ -118,7 +118,7 @@ const Experience = () => {
             <article className='experience__details'>
             <BsPatchCheckFill className='experience__details-icons'/>
             <div>
-            <h4>Sequalize</h4>
+            <h4>Sequelize</h4>
             <small className='text-light'>Experienced</small>
             </div>
             </article>
