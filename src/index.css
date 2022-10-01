@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;1,100;1,200&family=Dosis:wght@200&family=Poppins:wght@300;400;500;600&display=swap');
 
 * {
-    margin: 0;
+    margin: 0px;
     padding: 0;
     border: 0;
     outline: 0;
@@ -11,8 +11,9 @@
 }
 
 :root {
-    --color-bg: #1B1A1F;
-    --color-bg-variant: #303241;
+    --color-bg: #090a0f;
+    --color-bg-variant: #1b2735ac;
+    /* --color-bg-variant: #121a23; */
     --color-primary: #56BFAC;
     --color-primary-variant: #56bfac59;
     --color-white:#fff;
@@ -36,9 +37,10 @@ html {
 
 body {
     font-family: 'Poppins', sans-serif;
-    background: var(--color-bg);
-    /* background: url("../src/assets/px_b.png"); */
-    background-repeat: repeat;
+    /* background: var(--color-bg); */
+    /* background: url("../src/assets/px_b.png"); 
+    /* background-repeat: repeat; */
+    background: radial-gradient(ellipse at bottom, #1b2735 0%,#090a0f 100%);
     color: var(--color-white);
     line-height: 1.7;
     
