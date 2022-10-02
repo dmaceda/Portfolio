@@ -7,7 +7,7 @@
 Bienvenidxs a mi Portfolio.
 Donde podrán encontrar mi información de contacto, mis skills y proyectos en los que he trabajado.
 
-![Preview de la App ]()
+![Preview de la App ](https://github.com/dmaceda/Portfolio/blob/master/port.png)
 
 #### Tecnologías utilizadas
 
