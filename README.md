@@ -7,7 +7,7 @@
 Bienvenidxs a mi Portfolio.
 Donde podrán encontrar mi información de contacto, mis skills y proyectos en los que he trabajado.
 
-![Preview de la App ](https://github.com/dmaceda/Videogames/blob/master/GAMES-LAND.png)
+![Preview de la App ]()
 
 #### Tecnologías utilizadas
 
@@ -17,4 +17,4 @@ Donde podrán encontrar mi información de contacto, mis skills y proyectos en l
 
 #### Puedes probar mi proyecto mediante el link de aqui abajo 👇
 
-Link: https://games-land.vercel.app/  
+Link: https://dmaceda.github.io/Portfolio/ 
