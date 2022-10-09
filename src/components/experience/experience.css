@@ -2,8 +2,7 @@
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 2rem;
-    
-   
+
 }
 
 .experience__container > div {
@@ -41,6 +40,10 @@
     color: var(--color-primary);
 }
 
+#experiences {
+    height: 60vh;
+}
+
 /*********** MEDIA QUERIES (MEDIUM DEVICES ************/
 @media screen and (max-width: 1024px) {
     .experience__container {
@@ -54,6 +57,9 @@
     .experience__content{
         padding: 1rem;
     }
+    #experiences {
+        height: 60vh;
+    }
  }
  
  /*********** MEDIA QUERIES (SMALL DEVICES ************/
@@ -65,4 +71,7 @@
        width: 100%;
        padding: 2rem 1rem;
    }
+   #experiences {
+    height: 120vh;
+}
  }
