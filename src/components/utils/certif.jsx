@@ -1,4 +1,4 @@
-import scrum from "../../assets/scrum.png";
+import Scrum from "../../assets/scrum.png";
 import henry from "../../assets/henry.png";
 // import ingles from "../../assets/ingles.png";
 import git from "../../assets/git.png";
@@ -11,7 +11,7 @@ import ux1 from "../../assets/ux1.png";
 export const certif = [
   {
     id: 1,
-    image: scrum,
+    image: Scrum,
   },
   {
     id: 2,
