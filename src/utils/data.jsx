@@ -1,11 +1,11 @@
-import CLIMA from "../../assets/clima.png";
-import CALCULATOR from "../../assets/calculator.png";
-import GAMES from "../../assets/GAMES-LAND.png";
-import PORTFOLIO from "../../assets/port.png";
-import CRIPTO from "../../assets/cripto_m.png";
-import TUSPACIO from "../../assets/tuspacio.png";
-import LITEFLIX from "../../assets/liteflix.png";
-import LOGIN from "../../assets/login.png";
+import CLIMA from "../assets/clima.png";
+import CALCULATOR from "../assets/calculator.png";
+import GAMES from "../assets/GAMES-LAND.png";
+import PORTFOLIO from "../assets/port.png";
+import CRIPTO from "../assets/cripto_m.png";
+import TUSPACIO from "../assets/tuspacio.png";
+import LITEFLIX from "../assets/liteflix.png";
+import LOGIN from "../assets/login.png";
 
 export const data = [
   {

@@ -1,6 +1,6 @@
 import React from "react";
 import "./testimonial.css";
-import { testimonial } from "../utils/testimonial";
+import { testimonial } from "../../utils/testimonial";
 
 // import Swiper core and required modules
 import { Navigation, Pagination, Autoplay } from "swiper";

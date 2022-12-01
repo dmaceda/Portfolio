@@ -1,6 +1,6 @@
 import React from "react";
 import "./certification.css";
-import { certif } from "../utils/certif";
+import { certif } from "../../utils/certif";
 
 // import Swiper core and required modules
 import { Navigation, Pagination, Autoplay } from "swiper";

@@ -1,8 +1,8 @@
-import BR from "../../assets/bruno.png";
-import AG from "../../assets/agus.png";
-import VI from "../../assets/vicky.png";
-import NI from "../../assets/nico.png";
-import ME from "../../assets/meli.png";
+import BR from "../assets/bruno.png";
+import AG from "../assets/agus.png";
+import VI from "../assets/vicky.png";
+import NI from "../assets/nico.png";
+import ME from "../assets/meli.png";
 
 export const testimonial = [
   {

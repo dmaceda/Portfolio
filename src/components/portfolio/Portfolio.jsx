@@ -1,6 +1,6 @@
 import React from "react";
 import "./portfolio.css";
-import { data } from "../utils/data";
+import { data } from "../../utils/data";
 import { DiCss3, DiJavascript1, DiReact } from "react-icons/di";
 
 const Portfolio = () => {
