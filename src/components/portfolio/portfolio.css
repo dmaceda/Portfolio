@@ -1,77 +1,74 @@
 .portfolio__container {
- display: grid;
- grid-template-columns: repeat(3, 1fr);
- gap:2.5rem;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2.5rem;
 }
 
-.portfolio__items{
-    background: var(--color-bg-variant);
-    padding: 1.3rem;
-    border-radius: 2rem;
-    border: 1px solid transparent;
-    transition: var(--transition);
+.portfolio__items {
+  background: var(--color-bg-variant);
+  padding: 1.3rem;
+  border-radius: 2rem;
+  border: 1px solid transparent;
+  transition: var(--transition);
 }
 
-.portfolio__items:hover{
-    border-color: var(--color-primary-variant);
-    background: transparent;
+.portfolio__items:hover {
+  border-color: var(--color-primary-variant);
+  background: transparent;
 }
 
 .portfolio__item-image {
-    border-radius: 1.5rem;
-    overflow: hidden;
+  border-radius: 1.5rem;
+  overflow: hidden;
 }
 .portfolio__items h3 {
- margin: 1.2rem 0 2rem;
+  margin: 1.2rem 0 2rem;
 }
 
-.portfolio__item-cta{
-    display: flex;
-    gap: 1rem;
-    margin-bottom: 1rem;
+.portfolio__item-cta {
+  display: flex;
+  gap: 1rem;
+  margin-bottom: 1rem;
 }
 
-.swiper-pagination-clickable .swiper-pagination-bullet{
-    background: var(--color-primary);
+.swiper-pagination-clickable .swiper-pagination-bullet {
+  background: var(--color-primary);
 }
-
 
 .mokup {
-   color: var(--color-primary-variant);
-   margin-bottom: 1rem;
-   margin-top: 1rem;
+  color: var(--color-primary-variant);
+  margin-bottom: 1rem;
+  margin-top: 1rem;
 }
 
 .btn {
-    padding-bottom: 10px;
-    margin-bottom: 20px;
+  padding-bottom: 10px;
+  margin-bottom: 20px;
 }
-#portfolio{
-    height: 200vh;
+#portfolio {
+  height: 250vh;
 }
 
 /*********** MEDIA QUERIES (MEDIUM DEVICES ************/
 @media screen and (max-width: 1024px) {
-   .portfolio__container{
-        width: 85%;
-         grid-template-columns: 1fr 1fr;
-         gap: 1rem;
-   }
-   #portfolio{
-    height: 220vh;
+  .portfolio__container {
+    width: 85%;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+  }
+  #portfolio {
+    height: 350vh;
+  }
 }
- }
- 
- /*********** MEDIA QUERIES (SMALL DEVICES ************/
- @media screen and (max-width: 600px) {
-    .portfolio__container{
-        width: 85%;
-        grid-template-columns: 1fr;
-        gap: 1rem;
-    }
-    #portfolio{
-        height: 500vh;
-    }
- }
- 
- 
+
+/*********** MEDIA QUERIES (SMALL DEVICES ************/
+@media screen and (max-width: 600px) {
+  .portfolio__container {
+    width: 85%;
+    grid-template-columns: 1fr;
+    gap: 1rem;
+  }
+  #portfolio {
+    height: 680vh;
+  }
+}

@@ -1,70 +1,65 @@
 .testimonial__container {
-    width: 40%;
-    padding: 3rem;
-   }
-   
-.client__avatar {
-    width: 4rem;
-    aspect-ratio: 1/1;
-    overflow: hidden;
-    border-radius: 50%;
-    margin: 0 auto 1rem;
-    border: 0.4rem solid var(--color-primary-variant);
+  width: 40%;
+  padding: 3rem;
 }
 
-.testimonial{
-    background: transparent;
-    text-align: center;
-    padding: 3rem;
-    border: 1px solid var(--color-primary-variant);
-    border-radius: 2rem;
-    user-select: none;
-    margin-bottom: 3rem;
+.client__avatar {
+  width: 4rem;
+  aspect-ratio: 1/1;
+  overflow: hidden;
+  border-radius: 50%;
+  margin: 0 auto 1rem;
+  border: 0.4rem solid var(--color-primary-variant);
+}
+
+.testimonial {
+  background: transparent;
+  text-align: center;
+  padding: 3rem;
+  border: 1px solid var(--color-primary-variant);
+  border-radius: 2rem;
+  user-select: none;
+  margin-bottom: 3rem;
 }
 
 .client__review {
-    color: var(--color-light);
-    font-weight: 300;
-    display: block;
-    margin: 0.8rem auto 0;
-
-    
+  color: var(--color-light);
+  font-weight: 300;
+  display: block;
+  margin: 0.8rem auto 0;
 }
 
-#certifications{
-    height: 90vh;
+#certifications {
+  height: 90vh;
 }
 
-   .swiper-pagination-clickable .swiper-pagination-bullet{
-       background: var(--color-primary);
-   }
-   
+.swiper-pagination-clickable .swiper-pagination-bullet {
+  background: var(--color-primary);
+}
 
-   
-   /*********** MEDIA QUERIES (MEDIUM DEVICES ************/
-   @media screen and (max-width: 1024px) {
-    .testimonial__container {
-        width: 60%;
-        padding: 0;
-       }
-    
-       #testimonial{
-        height: 70vh;
-    }
-    }
-    
-    /*********** MEDIA QUERIES (SMALL DEVICES ************/
-    @media screen and (max-width: 600px) {
-        .testimonial__container {
-            width: 90%;
-            padding: 1rem;
-           }
-        #testimonial{
-            height: 150vh;
-            margin-bottom: 1rem;
-        }
-        #certifications{
-            height: 50vh;
-        }
-        
-    }
+/*********** MEDIA QUERIES (MEDIUM DEVICES ************/
+@media screen and (max-width: 1024px) {
+  .testimonial__container {
+    width: 60%;
+    padding: 0;
+  }
+
+  #testimonial {
+    height: 70vh;
+  }
+}
+
+/*********** MEDIA QUERIES (SMALL DEVICES ************/
+@media screen and (max-width: 600px) {
+  .testimonial__container {
+    width: 90%;
+    padding: 1rem;
+  }
+  #testimonial {
+    height: 150vh;
+    margin-bottom: 1rem;
+  }
+  #certifications {
+    height: 70vh;
+  }
+}
