@@ -77,9 +77,9 @@
 
 /*********** MEDIA QUERIES (MEDIUM DEVICES ************/
 @media screen and (max-width: 1024px) {
-  .about__container {
-    grid-template-columns: 1fr;
-    gap: 0;
+  .about__cards {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 0.5rem;
   }
   .about__me {
     width: 50%;
@@ -87,6 +87,12 @@
   }
   .about__content p {
     margin: 1rem 0 1.5rem;
+  }
+  .contact_button {
+    display: none;
+  }
+  #about {
+    height: 120vh;
   }
 }
 
@@ -114,5 +120,8 @@
   }
   #about {
     height: 160vh;
+  }
+  .contact_button {
+    display: none;
   }
 }

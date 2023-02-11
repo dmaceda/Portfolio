@@ -4,8 +4,6 @@ import LOGO from "../../assets/logo_y.png";
 import { useState } from "react";
 import Switch from "../switch/Switch";
 import { useTranslation } from "react-i18next";
-import { BsDownload } from "react-icons/bs";
-import CV from "../../assets/CV.pdf";
 
 const Nav = () => {
   const [activeNav, setActiveNav] = useState("#");
@@ -49,11 +47,6 @@ const Nav = () => {
       >
         {t("nav.contact")}
       </a>
-      <div className="download_container">
-        <a href={CV} download>
-          CV <BsDownload className="download" />
-        </a>
-      </div>
 
       <div className="selector">
         <Switch />

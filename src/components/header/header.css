@@ -64,6 +64,12 @@ header {
   z-index: 1;
 }
 
+/*******************CTB***************/
+
+.ctb {
+  display: none;
+}
+
 /****************ME******************/
 .me {
   background: linear-gradient(#f2a000, transparent);
@@ -144,10 +150,23 @@ header {
 /*********** MEDIA QUERIES (MEDIUM DEVICES ************/
 @media screen and (max-width: 1024px) {
   .header {
-    height: 68vh;
+    height: 100vh;
   }
   .watermark {
     display: none;
+  }
+  .cta {
+    display: none;
+  }
+  .ctb {
+    margin-top: 4rem;
+    display: flex;
+    gap: 1.2rem;
+    justify-content: center;
+  }
+
+  .cta b {
+    z-index: 1;
   }
 }
 
@@ -170,5 +189,15 @@ header {
   }
   .cta {
     display: none;
+  }
+  .ctb {
+    margin-top: 4rem;
+    display: flex;
+    gap: 1.2rem;
+    justify-content: center;
+  }
+
+  .cta b {
+    z-index: 1;
   }
 }

@@ -1,5 +1,6 @@
 import React from "react";
 import "./about.css";
+import CTB from "./CTB";
 import { FaAward } from "react-icons/fa";
 import { FiUsers } from "react-icons/fi";
 import { AiFillStar, AiOutlineStar } from "react-icons/ai";
@@ -81,6 +82,7 @@ const About = () => {
               {t("about.talk")}
             </a>
           </div>
+          <CTB />
         </div>
       </div>
     </section>

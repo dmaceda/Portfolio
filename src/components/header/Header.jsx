@@ -34,7 +34,7 @@ const Header = () => {
   }, [scrool]);
 
   return (
-    <div id="/">
+    <div id="/" className="header">
       <header className="container header__container">
         <h1>
           {t("header.title")}
