@@ -39,6 +39,10 @@
   margin-left: 20px;
 }
 
+.download_container {
+  display: none;
+}
+
 /*********** MEDIA QUERIES (MEDIUM DEVICES ************/
 @media screen and (max-width: 1024px) {
   #navbar a {

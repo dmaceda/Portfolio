@@ -57,14 +57,8 @@
   .switch_container {
     margin-top: 10px;
   }
-  #navbar a {
-    display: none;
-  }
 }
 
 /*********** MEDIA QUERIES (SMALL DEVICES ************/
 @media screen and (max-width: 600px) {
-  #navbar a {
-    display: none;
-  }
 }
