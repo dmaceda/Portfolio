@@ -2,6 +2,7 @@
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 2.5rem;
+  z-index: 1;
 }
 
 .portfolio__items {
@@ -10,17 +11,29 @@
   border-radius: 2rem;
   border: 1px solid transparent;
   transition: var(--transition);
+
+  z-index: 1;
 }
 
 .portfolio__items:hover {
   border-color: var(--color-primary-variant);
   background: transparent;
+  transform: scale(1.05);
+  transition: 1s ease-in-out;
+}
+
+.portfolio__item-image {
+  filter: grayscale(100%);
+}
+.portfolio__items:hover .portfolio__item-image {
+  filter: grayscale(0%);
 }
 
 .portfolio__item-image {
   border-radius: 1.5rem;
   overflow: hidden;
 }
+
 .portfolio__items h3 {
   margin: 1.2rem 0 2rem;
 }
@@ -46,7 +59,36 @@
   margin-bottom: 20px;
 }
 #portfolio {
-  height: 250vh;
+  height: 190vh;
+}
+
+.center__button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 4rem;
+  z-index: 1;
+}
+
+.center__button a {
+  z-index: 1;
+  color: var(--color-light);
+  border-color: var(--color-light);
+}
+
+.mok {
+  width: 12px;
+  color: var(--color-primary-variant);
+  margin-bottom: 1rem;
+  margin-top: 1rem;
+}
+
+.mokup:hover {
+  color: var(--color-primary);
+}
+
+.mok:hover {
+  color: var(--color-primary);
 }
 
 /*********** MEDIA QUERIES (MEDIUM DEVICES ************/
@@ -57,7 +99,10 @@
     gap: 1rem;
   }
   #portfolio {
-    height: 350vh;
+    height: 290vh;
+  }
+  .portfolio__item-image {
+    filter: none;
   }
 }
 
@@ -69,6 +114,9 @@
     gap: 1rem;
   }
   #portfolio {
-    height: 680vh;
+    height: 550vh;
+  }
+  .portfolio__item-image {
+    filter: none;
   }
 }

@@ -11,11 +11,10 @@
 }
 
 :root {
-  --color-bg: #090a0f;
-  --color-bg-variant: #1b2735ac;
-  /* --color-bg-variant: #121a23; */
-  --color-primary: #56bfac;
-  --color-primary-variant: #56bfac59;
+  --color-bg: #070707;
+  --color-bg-variant: #2e2e2eac;
+  --color-primary: #f2a000;
+  --color-primary-variant: rgba(255, 255, 255, 0.362);
   --color-white: #fff;
   --color-light: rgba(255, 255, 255, 0.6);
 
@@ -36,10 +35,7 @@ html {
 
 body {
   font-family: "Poppins", sans-serif;
-  /* background: var(--color-bg); */
-  /* background: url("../src/assets/px_b.png"); 
-    /* background-repeat: repeat; */
-  background: radial-gradient(ellipse at bottom, #1b2735 0%, #090a0f 100%);
+  background: radial-gradient(ellipse at bottom, #393939 0%, #0d0d0d 100%);
   color: var(--color-white);
   line-height: 1.7;
 }
@@ -76,7 +72,7 @@ section > h5 {
 
 section > h2 {
   color: var(--color-primary);
-  margin-bottom: 3rem;
+  margin-bottom: 2rem;
 }
 
 .text-light {

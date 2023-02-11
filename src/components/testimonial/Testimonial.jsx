@@ -1,6 +1,11 @@
 import React from "react";
 import "./testimonial.css";
-import { testimonial } from "../../utils/testimonial";
+import BR from "../../assets/bruno.png";
+import AG from "../../assets/agus.png";
+import VI from "../../assets/vicky.png";
+import NI from "../../assets/nico.png";
+import ME from "../../assets/meli.png";
+import { useTranslation } from "react-i18next";
 
 // import Swiper core and required modules
 import { Navigation, Pagination, Autoplay } from "swiper";
@@ -17,10 +22,45 @@ import "swiper/css/autoplay";
 //crear array de testimonios y mapearlo
 
 const Testimonial = () => {
+  const { t } = useTranslation();
+
+  const testimonial = [
+    {
+      id: 1,
+      name: "Agustín Godoy",
+      image: AG,
+      text: t("testi.agus"),
+    },
+    {
+      id: 2,
+      name: "Nicolas Maximowicz",
+      image: NI,
+      text: t("testi.nico"),
+    },
+    {
+      id: 3,
+      name: "Maria Victoria Alvarez Windey",
+      image: VI,
+      text: t("testi.vicky"),
+    },
+    {
+      id: 4,
+      name: "Bruno Mele Gavazza",
+      image: BR,
+      text: t("testi.bruno"),
+    },
+    {
+      id: 5,
+      name: "Melina Lourdes Reynoso",
+      image: ME,
+      text: t("testi.meli"),
+    },
+  ];
+
   return (
     <section id="testimonial">
-      <h5>Reviews</h5>
-      <h2>Testimonials</h2>
+      <h5>{t("testi.subtitle")}</h5>
+      <h2>{t("testi.title")}</h2>
       <Swiper
         className="testimonial__container"
         modules={[Navigation, Pagination, Autoplay]}

@@ -9,12 +9,14 @@
   padding: 2.4rem 5rem;
   border-radius: 2rem;
   border: 1px solid transparent;
+  z-index: 1;
 }
 
 .experience__container > div:hover {
   background: transparent;
   border-color: var(--color-primary-variant);
   cursor: default;
+  transition: 1s ease-in-out;
 }
 
 .experience__container > div h3 {
@@ -40,7 +42,13 @@
 }
 
 #experiences {
-  height: 60vh;
+  height: 80vh;
+}
+
+.experience__pcontainer {
+  text-align: center;
+  padding-bottom: 2rem;
+  color: var(--color-light);
 }
 
 /*********** MEDIA QUERIES (MEDIUM DEVICES ************/
@@ -57,7 +65,7 @@
     padding: 1rem;
   }
   #experiences {
-    height: 130vh;
+    height: 150vh;
   }
 }
 
@@ -71,6 +79,6 @@
     padding: 2rem 1rem;
   }
   #experiences {
-    height: 130vh;
+    height: 150vh;
   }
 }

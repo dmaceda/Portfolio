@@ -32,6 +32,13 @@
 #certifications {
   height: 90vh;
 }
+.experience__pcontainer p {
+  position: relative;
+  z-index: 1;
+}
+.experience__pcontainer a {
+  z-index: 1;
+}
 
 .swiper-pagination-clickable .swiper-pagination-bullet {
   background: var(--color-primary);
@@ -60,6 +67,6 @@
     margin-bottom: 1rem;
   }
   #certifications {
-    height: 70vh;
+    height: 100vh;
   }
 }
