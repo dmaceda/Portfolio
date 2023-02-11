@@ -1,0 +1,35 @@
+{
+  "files": {
+    "main.css": "/Portfolio/static/css/main.5086568d.css",
+    "main.js": "/Portfolio/static/js/main.407bb6a3.js",
+    "static/media/GAMES-LAND.png": "/Portfolio/static/media/GAMES-LAND.ee15b17e688f0f48720f.png",
+    "static/media/liteflix.png": "/Portfolio/static/media/liteflix.462232ec736b378cd19c.png",
+    "static/media/tuspacio.png": "/Portfolio/static/media/tuspacio.80f6b271d2e91d1ceacf.png",
+    "static/media/login.png": "/Portfolio/static/media/login.88e24d786fe470171ea1.png",
+    "static/media/cripto_m.png": "/Portfolio/static/media/cripto_m.d35c61efe9628c6cdd5a.png",
+    "static/media/pokedex.png": "/Portfolio/static/media/pokedex.08c926a2145dec42305c.png",
+    "static/media/ux.png": "/Portfolio/static/media/ux.81262cde88f9a7ad764e.png",
+    "static/media/meli.png": "/Portfolio/static/media/meli.d2a5ea2dfe040b6adf03.png",
+    "static/media/bruno.png": "/Portfolio/static/media/bruno.1fcbab144b7d0d79c1ca.png",
+    "static/media/agus.png": "/Portfolio/static/media/agus.cc4b53dff3984b611f4d.png",
+    "static/media/scrum.png": "/Portfolio/static/media/scrum.32f0ed76ee16de5c903a.png",
+    "static/media/se-programar.png": "/Portfolio/static/media/se-programar.553e5f16d12571ff8ec4.png",
+    "static/media/alura.png": "/Portfolio/static/media/alura.6525b71b60bddaa3bcb6.png",
+    "static/media/vicky.png": "/Portfolio/static/media/vicky.1557523299d537cbd441.png",
+    "static/media/ingles.png": "/Portfolio/static/media/ingles.45228f795560d04aa36e.png",
+    "static/media/CV.pdf": "/Portfolio/static/media/CV.2c18cebd62dfbf7416d7.pdf",
+    "static/media/nico.png": "/Portfolio/static/media/nico.ff64f9c0e834395f43b2.png",
+    "static/media/me2.png": "/Portfolio/static/media/me2.a7d781a6fd05d960c4b5.png",
+    "static/media/git.png": "/Portfolio/static/media/git.5a6a862d65917ec77a2d.png",
+    "static/media/henry.png": "/Portfolio/static/media/henry.2b43c8f055b9e5b80e3b.png",
+    "static/media/logo_tipo.png": "/Portfolio/static/media/logo_tipo.12bb8e0bb15b63f186ab.png",
+    "static/media/logo_y.png": "/Portfolio/static/media/logo_y.56b463856809b5e34656.png",
+    "index.html": "/Portfolio/index.html",
+    "main.5086568d.css.map": "/Portfolio/static/css/main.5086568d.css.map",
+    "main.407bb6a3.js.map": "/Portfolio/static/js/main.407bb6a3.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.5086568d.css",
+    "static/js/main.407bb6a3.js"
+  ]
+}
