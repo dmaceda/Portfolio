@@ -9,7 +9,7 @@ const Switch = () => {
   const onChangeLang = () => {
     let newLang = lang;
 
-    if (lang == "es") {
+    if (lang === "es") {
       newLang = "en";
     } else {
       newLang = "es";
