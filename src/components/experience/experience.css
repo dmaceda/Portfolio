@@ -22,7 +22,7 @@
 .experience__container > div h3 {
   color: var(--color-primary);
   text-align: center;
-  margin-bottom: 2rem;
+  margin-bottom: 0.5rem;
 }
 
 .experience__content {
@@ -37,6 +37,7 @@
 }
 
 .experience__details-icons {
+  font-size: 1.5rem;
   margin-top: 6px;
   color: var(--color-primary);
 }
@@ -49,6 +50,24 @@
   text-align: center;
   padding-bottom: 2rem;
   color: var(--color-light);
+}
+
+.icons_container {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 2rem;
+  color: rgba(255, 255, 255, 0.323);
+}
+
+.icons_container_ico {
+  font-size: 1.5rem;
+  margin: 0 0.5rem;
+}
+
+.icons_container_ico:hover {
+  color: white;
 }
 
 /*********** MEDIA QUERIES (MEDIUM DEVICES ************/

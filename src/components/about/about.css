@@ -21,7 +21,7 @@
 
 .about__cards {
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
+  grid-template-columns: repeat(3, 1fr);
   gap: 1.5rem;
 }
 
@@ -33,7 +33,6 @@
   padding: 2rem;
   text-align: center;
   transition: var(--transition);
-  margin-top: 2rem;
 }
 
 .about__card:hover {
@@ -45,7 +44,7 @@
 
 .about__icon {
   color: var(--color-primary);
-  font-size: 1.4rem;
+  font-size: 2rem;
 }
 
 .about__card h5 {
@@ -63,16 +62,24 @@
   margin-top: 0;
 }
 
+.about__content h4 {
+  color: var(--color-light);
+}
+
 .about__content {
   z-index: 1;
 }
 
 #about {
-  height: 70vh;
+  height: 100vh;
 }
 
 .contact_button {
   margin-top: 4rem;
+}
+
+.about__card p {
+  font-size: 17px;
 }
 
 /*********** MEDIA QUERIES (MEDIUM DEVICES ************/
@@ -92,7 +99,7 @@
     display: none;
   }
   #about {
-    height: 120vh;
+    height: 130vh;
   }
 }
 
@@ -119,7 +126,7 @@
     font-size: small;
   }
   #about {
-    height: 160vh;
+    height: 200vh;
   }
   .contact_button {
     display: none;

@@ -1,11 +1,12 @@
 import React from "react";
 import "./about.css";
 import CTB from "./CTB";
-import { FaAward } from "react-icons/fa";
 import { FiUsers } from "react-icons/fi";
-import { AiFillStar, AiOutlineStar } from "react-icons/ai";
-import { RiTeamLine } from "react-icons/ri";
-import { TiLightbulb } from "react-icons/ti";
+import { VscSymbolColor } from "react-icons/vsc";
+import { IoMdSpeedometer } from "react-icons/io";
+import { BsLaptop } from "react-icons/bs";
+import { FaMobileAlt } from "react-icons/fa";
+import { AiOutlineCode } from "react-icons/ai";
 import { useTranslation } from "react-i18next";
 
 const About = () => {
@@ -31,52 +32,41 @@ const About = () => {
           <div className="about__cards">
             <article className="about__card">
               <FiUsers className="about__icon" />
-              <h5>Co-Work</h5>
-              <div className="about__icon">
-                <AiFillStar />
-                <AiFillStar />
-                <AiFillStar />
-                <AiFillStar />
-                <AiFillStar />
-              </div>
+              <h5> {t("about.c1")}</h5>
+              <h4>{t("about.c1b")}</h4>
             </article>
 
             <article className="about__card">
-              <FaAward className="about__icon" />
-              <h5>{t("nav.exp")}</h5>
-              <div className="about__icon">
-                <AiFillStar />
-                <AiFillStar />
-                <AiFillStar />
-                <AiOutlineStar />
-                <AiOutlineStar />
-              </div>
+              <FaMobileAlt className="about__icon" />
+              <h5>{t("about.c2")}</h5>
+              <h4>{t("about.c2b")}</h4>
             </article>
 
             <article className="about__card">
-              <RiTeamLine className="about__icon" />
-              <h5>Scrum</h5>
-              <div className="about__icon">
-                <AiFillStar />
-                <AiFillStar />
-                <AiFillStar />
-                <AiFillStar />
-                <AiOutlineStar />
-              </div>
+              <AiOutlineCode className="about__icon" />
+              <h5>{t("about.c3")}</h5>
+              <h4>{t("about.c3b")}</h4>
             </article>
 
             <article className="about__card">
-              <TiLightbulb className="about__icon" />
-              <h5>{t("nav.crea")}</h5>
-              <div className="about__icon">
-                <AiFillStar />
-                <AiFillStar />
-                <AiFillStar />
-                <AiFillStar />
-                <AiFillStar />
-              </div>
+              <VscSymbolColor className="about__icon" />
+              <h5>{t("about.c4")}</h5>
+              <h4>{t("about.c4b")}</h4>
+            </article>
+
+            <article className="about__card">
+              <IoMdSpeedometer className="about__icon" />
+              <h5>{t("about.c5")}</h5>
+              <h4>{t("about.c5b")}</h4>
+            </article>
+
+            <article className="about__card">
+              <BsLaptop className="about__icon" />
+              <h5>{t("about.c6")}</h5>
+              <h4>{t("about.c6b")}</h4>
             </article>
           </div>
+
           <div className="contact_button">
             <a href="#contact" className="btn btn-primary">
               {t("about.talk")}
