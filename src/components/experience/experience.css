@@ -79,6 +79,7 @@
     width: 80%;
     padding: 2rem;
     margin: 0 auto;
+    margin-bottom: 2rem;
   }
   .experience__content {
     padding: 1rem;
@@ -106,6 +107,7 @@
   .icons_container {
     width: 80%;
     margin: 0 auto;
+    margin-bottom: 2rem;
   }
   .icons_container_ico {
     font-size: 1rem;
