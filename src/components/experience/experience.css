@@ -86,6 +86,9 @@
   #experiences {
     height: 150vh;
   }
+  .icons_container_ico {
+    font-size: 1rem;
+  }
 }
 
 /*********** MEDIA QUERIES (SMALL DEVICES ************/
@@ -99,5 +102,12 @@
   }
   #experiences {
     height: 150vh;
+  }
+  .icons_container {
+    width: 80%;
+    margin: 0 auto;
+  }
+  .icons_container_ico {
+    font-size: 1rem;
   }
 }

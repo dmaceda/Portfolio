@@ -45,7 +45,7 @@
   }
 
   #testimonial {
-    height: 70vh;
+    height: 60vh;
   }
 }
 
@@ -56,7 +56,7 @@
     padding: 1rem;
   }
   #testimonial {
-    height: 100vh;
+    height: 60vh;
     margin-bottom: 1rem;
   }
 }

@@ -50,10 +50,6 @@
     width: 60%;
     padding: 0;
   }
-
-  #testimonial {
-    height: 70vh;
-  }
 }
 
 /*********** MEDIA QUERIES (SMALL DEVICES ************/
@@ -62,10 +58,7 @@
     width: 90%;
     padding: 1rem;
   }
-  #testimonial {
-    height: 150vh;
-    margin-bottom: 1rem;
-  }
+
   #certifications {
     height: 100vh;
   }

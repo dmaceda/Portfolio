@@ -35,7 +35,7 @@ export default {
     c3: "Desarrollo",
     c3b: "Sitios dinámicos, con una arquitectura sólida y escalables.",
     c4: "Diseño",
-    c4b: "Con con una interfaz intuitiva, accesibles y con foco en el usuario.",
+    c4b: "Con una interfaz intuitiva, accesibles y centrados en el usuario.",
     c5: "Rendimiento",
     c5b: "Rápidos, con el fin de atraer y retener a los usuarios.",
     c6: "SEO",
