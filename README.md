@@ -2,10 +2,10 @@
 
 ¡Hola!👋
 
-Bienvenidxs a mi Portfolio.
-Donde podrán encontrar mi información de contacto, mis skills y proyectos en los que he trabajado.
+Bienvenid@ a mi Portfolio.
+Aquí podrás encontrar mi información de contacto, mis skills y proyectos en los que he trabajado.
 
-![Preview de la App ](https://github.com/dmaceda/Portfolio/blob/master/port.png)
+![Preview de la App ](https://github.com/dmaceda/Portfolio/blob/master/src/assets/mokup.png)
 
 #### Tecnologías utilizadas
 
@@ -14,3 +14,5 @@ Donde podrán encontrar mi información de contacto, mis skills y proyectos en l
 #### Puedes probar mi proyecto mediante el link de aqui abajo 👇
 
 Link: https://dmaceda.github.io/Portfolio/
+
+Gracias por la visita 🍀
