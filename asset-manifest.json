@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/Portfolio/static/css/main.c692cb51.css",
+    "main.css": "/Portfolio/static/css/main.8038ab37.css",
     "main.js": "/Portfolio/static/js/main.f220818b.js",
     "static/media/GAMES-LAND.png": "/Portfolio/static/media/GAMES-LAND.ee15b17e688f0f48720f.png",
     "static/media/liteflix.png": "/Portfolio/static/media/liteflix.462232ec736b378cd19c.png",
@@ -25,11 +25,11 @@
     "static/media/logo_tipo.png": "/Portfolio/static/media/logo_tipo.12bb8e0bb15b63f186ab.png",
     "static/media/logo_y.png": "/Portfolio/static/media/logo_y.56b463856809b5e34656.png",
     "index.html": "/Portfolio/index.html",
-    "main.c692cb51.css.map": "/Portfolio/static/css/main.c692cb51.css.map",
+    "main.8038ab37.css.map": "/Portfolio/static/css/main.8038ab37.css.map",
     "main.f220818b.js.map": "/Portfolio/static/js/main.f220818b.js.map"
   },
   "entrypoints": [
-    "static/css/main.c692cb51.css",
+    "static/css/main.8038ab37.css",
     "static/js/main.f220818b.js"
   ]
 }
