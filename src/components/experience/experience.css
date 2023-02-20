@@ -112,4 +112,8 @@
   .icons_container_ico {
     font-size: 1rem;
   }
+
+  #experiences {
+    height: 180vh;
+  }
 }

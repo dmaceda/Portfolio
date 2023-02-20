@@ -99,7 +99,7 @@
     display: none;
   }
   #about {
-    height: 130vh;
+    height: 150vh;
   }
 }
 
@@ -124,7 +124,7 @@
   }
 
   #about {
-    height: 200vh;
+    height: 230vh;
   }
   .contact_button {
     display: none;
